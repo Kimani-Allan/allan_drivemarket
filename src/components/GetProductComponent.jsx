@@ -44,9 +44,9 @@ const GetProductComponent = () => {
 
     return (
         <div>
-            <NavbarComponent />
+
             <div className="row">
-                <h3 className="mt-5">PRODUCTS</h3>
+                <h3 className="mt-5">AVAILABLE CARS</h3>
                 <h6 className="text-warning">{loading}</h6>
                 <h6 className="text-danger">{error}</h6>
 
